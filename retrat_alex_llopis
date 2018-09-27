@@ -1,6 +1,6 @@
-size (500, 500);
-
-scale(5);
+void alex (float posx, float posy){
+pushMatrix();
+scale(1);
 //mony0
 strokeWeight(2);
   stroke(80, 0, 0);
@@ -38,9 +38,7 @@ line(60,40,55,50);
 line(55,50,35,50);
 //barba
   stroke(80, 0, 0);
-
-strokeWeight(4);
-line(60,40,50,50);
+  line(60,40,50,50);
 line(60,35,60,40);
 line(50,50,40,50);
 line(40,50,30,40);
@@ -60,10 +58,7 @@ line(50,25,50,30);
 line(50,30,55,30);
 line(55,30,55,25);
 line(55,25,40,25);
-
-
-
-  stroke(0, 0, 0);
+stroke(0, 0, 0);
 
 //boca
 strokeWeight(5);
@@ -78,3 +73,8 @@ strokeWeight(1);
 
 line(45,30,45,35);
 line(45,35,40,35);
+
+strokeWeight(4);
+popMatrix();
+
+}
